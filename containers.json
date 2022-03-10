@@ -1,19 +1,14 @@
 {
     "app": {
-        "image": ":containerservice42.app-image.18",
+        "image": ":containerservice41.app-image.25",
         "ports": {
             "5000": "HTTP"
         }
     },
     "proxy": {
-        "image": ":containerservice42.proxy-image.19",
+        "image": ":containerservice41.proxy-image.28",
         "ports": {
             "80": "HTTP"
-        },
-        "environment": {
-            "NGINX_ENVSUBST_OUTPUT_DIR": "/ect/nginx",
-            "APP_HOST": "localhost",
-            "APP_PORT": "5000"
-        } 
+        }
     }
 }
