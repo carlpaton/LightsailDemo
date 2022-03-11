@@ -1,12 +1,12 @@
 {
     "app": {
-        "image": ":containerservice41.app-image.25",
+        "image": ":containerservice42.app-image.29",
         "ports": {
             "5000": "HTTP"
         }
     },
     "proxy": {
-        "image": ":containerservice41.proxy-image.28",
+        "image": ":containerservice42.proxy-image.30",
         "ports": {
             "80": "HTTP"
         }
